@@ -189,36 +189,36 @@ def saveDataFrame():
 
 entreprise = "ton"
 ollama_models = [
-  {
-    "model_name": "qwen2",
-    "run": 3,
-    "refining": False
-  },
-  {
-    "model_name": "mistral-nemo",
-    "run": 3,
-    "refining": False
-  },
-  {
-    "model_name": "gemma2",
-    "run": 3,
-    "refining": False
-  },
+  # {
+  #   "model_name": "qwen2",
+  #   "run": 3,
+  #   "refining": False
+  # },
+  # {
+  #   "model_name": "mistral-nemo",
+  #   "run": 3,
+  #   "refining": False
+  # },
+  # {
+  #   "model_name": "gemma2",
+  #   "run": 3,
+  #   "refining": False
+  # },
   # {
   #   "model_name": "phi3",
   #   "run": 3,
   #   "refining": False
   # },
-  # {
-  #   "model_name": "deepseek-coder-v2",
-  #   "run": 3,
-  #   "refining": False
-  # },
-  # {
-  #   "model_name": "llama3.1",
-  #   "run": 3,
-  #   "refining": False
-  # },
+  {
+    "model_name": "deepseek-coder-v2",
+    "run": 3,
+    "refining": False
+  },
+  {
+    "model_name": "llama3.1",
+    "run": 3,
+    "refining": False
+  },
 ]
 
 for model in ollama_models:
